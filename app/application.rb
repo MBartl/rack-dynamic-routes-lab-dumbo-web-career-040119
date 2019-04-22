@@ -1,5 +1,6 @@
 class Application
   
+  binding.pry
   @@items = Item.all
 
   def call(env)
