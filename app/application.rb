@@ -1,3 +1,5 @@
+require_relative './item.rb'
+
 class Application
   
   binding.pry
