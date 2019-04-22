@@ -2,7 +2,6 @@ require_relative 'item.rb'
 
 class Application
   
-  binding.pry
   @@items = Item.all
 
   def call(env)
