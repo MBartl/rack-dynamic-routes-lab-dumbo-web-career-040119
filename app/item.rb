@@ -1,4 +1,4 @@
-class Item
+class Item < ActiveRecord::Base
   attr_accessor :name, :price
 
   def initialize(name,price)
