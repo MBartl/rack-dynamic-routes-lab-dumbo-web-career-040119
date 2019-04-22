@@ -9,7 +9,7 @@ class Application
     resp = Rack::Response.new
     
     if req.path.match(/items/)
-      item_name = 
+      item_name = req.path.split('')
   end
 
 end
