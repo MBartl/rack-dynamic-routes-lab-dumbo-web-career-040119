@@ -1,4 +1,4 @@
-require_relative 'item.rb'
+require_relative './app/item.rb'
 
 class Application
   
