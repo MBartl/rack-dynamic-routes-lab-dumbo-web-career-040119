@@ -15,6 +15,7 @@ class Application
       
       req.write item.price
     end
+    
     resp.finish
   end
 end
