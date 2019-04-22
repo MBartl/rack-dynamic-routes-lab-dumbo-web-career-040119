@@ -12,5 +12,7 @@ class Application
       item_name = req.path.split("/items/").last
     end
   end
+  
+  resp
 
 end
